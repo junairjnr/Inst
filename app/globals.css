@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+#__next {  
+  max-width: 100%;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  user-select: none;
+}

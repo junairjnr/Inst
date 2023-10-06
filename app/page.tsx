@@ -1,9 +1,16 @@
-import Image from 'next/image'
-import Dashboard from './dashboard/page'
-import Navbar from './navbar/page'
+import Image from "next/image";
+import Dashboard from "./story/page";
+import Header from "./header/page";
+import Posts from "./posts/page";
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
-    <Dashboard />
-  )
+    <div className="w-full h-screen">
+      <Header />
+      <Dashboard />
+      <Posts />
+      <Footer />
+    </div>
+  );
 }
